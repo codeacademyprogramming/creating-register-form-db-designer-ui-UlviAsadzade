@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <img class="image" src="https://colorlib.com/etc/lf/Login_v13/images/bg-01.jpg" alt="">
+        </div>
+        <div class="right">
+            <h1>Sign Up</h1>
+            <form  class="form" autocomplete="off" >
+                <div class="title">
+                    <label for="">Full Name</label>
+                    <input id="name" class="name" type="text" placeholder="Name..." >
+                    <span class=" error error-name"></span>
+                </div>
+
+                <div class="title">
+                    <label for="">Email</label>
+                    <input id="email" class="email" type="email" placeholder="Email address..." >
+                    <span class=" error error-email"></span>
+                </div>
+
+                <div class="title">
+                    <label for="">Username</label>
+                    <input id="username" class="username" type="text" placeholder="Username..." >
+                    <span class=" error error-username"></span>
+                </div>
+
+                <div class="title">
+                    <label for="">Password</label>
+                    <input id="password" class="password" type="password" placeholder="******" >
+                    <span class="error error-password"></span>
+                </div>
+
+                <div class="title">
+                    <label for="">Repeat Passsword</label>
+                    <input id="repeat-password" class="repeat-password" type="password" placeholder="******" >
+                    <span class="error error-repeat-password"></span>
+                </div>
+                
+                <div class="checkbox">
+                    <input  class="check-button" type="checkbox" required >
+                    <span>I agree to the Terms of User</span>
+                </div>
+
+                <div class="buttons">
+                    <button  class="signup" type="submit"  >Sign up</button>
+                    <a class="signin" href="#">Sign in</a>
+                </div>
+        </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>

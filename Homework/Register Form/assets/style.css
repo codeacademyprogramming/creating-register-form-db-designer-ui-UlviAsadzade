@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+
+}
+
+.main .left{
+    width: 60%;
+}
+
+.left .image{
+    width: 100%;
+}
+
+.main .right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    color: #999;
+
+}
+
+.right h1{
+    font-weight: bolder;
+    padding: 2rem 0;
+    color: black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .title{
+    margin-bottom: 2rem;
+}
+
+.form label{
+    display: block;
+}
+
+.form input{
+    width: 55%;
+    height: 2rem;
+    padding: 0.3rem;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    display: block;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.form .checkbox input{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.form .buttons{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.buttons .signup{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: #da65c2;
+    border: none;
+    color: white;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.buttons .signin{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}

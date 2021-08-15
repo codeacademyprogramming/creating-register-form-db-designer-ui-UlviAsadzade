@@ -1,0 +1,146 @@
+html,
+body {
+    background-image: url("https://app.dbdesigner.net/assets/canvas-background-382ddae37df2afda79a647cf643277cc012d079c989b71853f3b9c6f2908c167.png");
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#custom-menu {
+    position: fixed;
+    width: 100px;
+    background: rgb(226, 222, 222);
+    display: none;
+  }
+
+  #delete-table {
+    position: fixed;
+    width: 100px;
+    background: rgb(226, 222, 222);
+    display: none;
+  }
+
+  #delete-table.visible {
+    display: block;
+  }
+
+  #delete-table .item {
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  #delete-table .item:hover {
+    background: rgb(0, 140, 255);
+  }
+
+  #delete-note {
+    position: fixed;
+    width: 100px;
+    background: rgb(226, 222, 222);
+    display: none;
+  }
+
+  #delete-note.visible {
+    display: block;
+  }
+
+  #delete-note .item {
+    padding: 8px 10px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  #delete-note .item:hover {
+    background: rgb(0, 140, 255);
+  }
+
+  #custom-menu.visible {
+    display: block;
+  }
+
+
+#custom-menu .item {
+  padding: 8px 10px;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#custom-menu .item.line{
+    border-bottom: 1.5px solid rgb(214, 209, 209);;
+} 
+
+
+#custom-menu .item:hover {
+  background: rgb(0, 140, 255);
+}
+
+.table{
+  display: none;
+  float: left;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  width: 13rem;
+  border: 1px solid black;
+}
+
+.table-title{
+  border-bottom: 1px solid black;
+  background-color: #dadada;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.5rem;
+}
+
+.table-title img{
+  margin-right: 0.2rem;
+}
+
+.table-title span{
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
+  font-weight: 600;
+}
+
+.table-body{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 1.5rem ;
+}
+
+.table-body a{
+  color: #336699;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.table-body img{
+  margin-left: 0.2rem;
+}
+
+.note{
+  display: none;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  width: 12rem;
+  height: 8rem;
+  background-color: #ffdc73;
+  font-family: 'source_sans_proregular', sans-serif;
+}
+
+.active{
+  display: block;
+}
